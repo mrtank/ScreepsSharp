@@ -17,7 +17,7 @@ namespace ScreepsSharp.Core
         bool TrySet<T>(string path, string key, T value);
 
         T Get<T>(string path, string key);
-       // void Set<T>(string path, T value); //there is no set, only try
+       // void Set<T>(string path, T value); //there is no set, only try // Sad. Yoda is.
 
         string[] GetKeys(string path);
 
